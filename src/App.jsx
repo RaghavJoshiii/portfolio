@@ -6,6 +6,7 @@ import { useState } from "react";
 import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/section/Home";
 import { About } from "./components/section/About";
+import { Projects } from "./components/section/Projects";
 function App(){
   const[isLoaded, setisLoaded] = useState(false)
   const[menuOpen, setMenuOpen] = useState(false)
@@ -16,6 +17,7 @@ function App(){
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Home/>
         <About/>
+        <Projects/>
     </div>
   </>
 }

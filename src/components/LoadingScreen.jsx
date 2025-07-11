@@ -37,9 +37,9 @@ export const LoadingScreen = ({ onComplete }) => {
     <div className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center">
       <div
         onClick={onComplete}
-        className="mb-4 text-4xl font-mono font-bold cursor-pointer bg-gradient-to-r from-purple-500 to-orange-500 bg-clip-text text-center w-full px-4 text-transparent leading-right"
+        className="mb-4 text-4xl font-mono font-bold cursor-pointer bg-gradient-to-r from-purple-500 to-orange-500 bg-clip-text text-transparent leading-right"
       >
-        {text} <span className="animate-blink ml-1">|</span>
+        {text}<span className="animate-blink text-white text-4xl">|</span>
       </div>
 
       <div className="w-[200px] h-[2px] bg-gray-800 rounded relative overflow-hidden mb-4 mr-6">

@@ -17,7 +17,7 @@ html,body{
       opacity: 0;
     }
   }
-  }
+  
   .animate-blink{
     animation: blink 0.8s step-end infinite
   }
@@ -33,4 +33,4 @@ html,body{
     animation: loading 0.8s ease infinite;
   }
   
- 
+} 
