@@ -1,3 +1,4 @@
+import { ThemeToggle } from "./ThemeToggle"
 
 export const MobileMenu = ({menuOpen, setMenuOpen}) =>{
     return(
@@ -12,6 +13,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) =>{
          onClick={()=> setMenuOpen(false)} className="absolute top-6 right-6 text-white text-3xl focus:outline-none cursor-pointer">
             &times;
          </button>
+             <ThemeToggle/>
             <a href="#home"
                 onClick={()=> setMenuOpen(false)}
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
